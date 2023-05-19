@@ -1,0 +1,13 @@
+qemu-system-x86_64 -L . -m 64 -fda ./Disk.img -localtinme -M pc
+
+
+-m 64 -> allocate 64MB physical memory
+
+-fda ./Disk.img -> setting MINT64 OS Image my flopy disk
+-M pc -> virtual envirenment PC
+
+
+
+
+
+
